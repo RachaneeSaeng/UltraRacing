@@ -1,0 +1,26 @@
+<!-- [] is attibute -->
+<h4>There are {{totalCarParts()}} total parts in stock.</h4>
+<ul class="list-group">
+    <li class="list-group-item" *ngFor="let carPart of carParts" [class.featured]="carPart.id % 2 === 0"> <!-- assign class featured even row -->
+        <div class="text-center">
+            <img [src]="carPart.image">
+        </div>
+        <div>
+           <h3>
+                {{carPart.name | uppercase}}
+                <em class="pull-right price">{{carPart.price | currency:'USD':true}}</em>
+            </h3>
+            <p class="description">{{carPart.description}}</p>
+            <div>
+                <div class="pull-right" [hidden]="!carPart.inStock > 0">
+                    Buy: 
+                    <button class="decrease" (click)="downQuantity(carPart)">-</button>
+                    <input class="number" type="text" style="width: 70" [(ngModel)]="carPart.quantity">
+                    <button class="increase" (click)="upQuantity(carPart)">+</button>
+                </div>                
+                <p class="instock" *ngIf="carPart.inStock > 0">{{carPart.inStock}} in Stock</p>
+                <p class="outstock" *ngIf="carPart.inStock === 0">Out of Stock</p> 
+            </div> 
+        </div>     
+    </li>
+</ul>

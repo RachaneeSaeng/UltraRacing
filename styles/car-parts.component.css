@@ -1,0 +1,19 @@
+.description {
+    color: #2C3E50;    
+}
+
+.featured {
+    background: #F8F9F9;   
+}
+
+.price {
+    color: #349221;    
+}
+
+.instock {
+    color: #197008;    
+}
+
+.outstock {
+    color: #CB020B;    
+}

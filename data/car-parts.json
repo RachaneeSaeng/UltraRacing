@@ -1,0 +1,42 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "Super Tires",
+      "description": "Recommended tires are standout choices with high scores. They include CR Best Buys, which offer exceptional value. When narrowing your choices, weigh features, price, and attributes that matter to you.",
+      "inStock": 10,
+      "price": 105.55,
+      "image": "/images/tire.jpg",
+      "quantity": 0
+    },
+    {
+      "id": 2,
+      "name": "Reinforced Shocks",
+      "description": "These shocks will fit Harley Touring, Sportster, Dyna, and Vrod. They will lower you bike 2\"-3\" and they have 4.5\" of travel. These shocks compress to 9.5\" and extend to 14\". Also they have welded reinforced eyelets with brand new black poly bushings installed and ready for you to install on your bike. These shocks come with push-lock air fittings for 1/4\" air line for faster up and down time.",
+      "inStock": 0,
+      "price": 99.99,
+      "image": "/images/shocks.jpg",
+      "quantity": 0
+    },
+    {
+      "id": 3,
+      "name": "Padded Seats",
+      "description": "Universal fits for most DC 12V vehicles with standard car seat. Easy, non-slip attachment with elasticated belts and hook & loop fastener. Quick warm-up and even heat distribution, High/Low/Off Switches. Breathable polyester fabric, soft and comfortable. Up to 50 degree Celsius Surface temperature comes with 30 Mins Timer.",
+      "inStock": 3,
+      "price": 49.75,
+      "image": "/images/seat.jpg",
+      "quantity": 0
+    },
+    {
+      "id": 4,
+      "name": "Tubo Booter",
+      "description": "Boot up your car speed.",
+      "inStock": 9,
+      "price": 199.99,
+      "image": "/images/turbo.jpg",
+      "quantity": 0
+    }
+  ]
+}
+
+
